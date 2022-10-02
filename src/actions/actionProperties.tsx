@@ -673,7 +673,7 @@ export const actionChangeFontFamily = register({
       },
       {
         value: FONT_FAMILY.chineseFont1,
-        text: t("手写字体"),
+        text: "手写字体",
         icon: <FontFamilyChineseIcon theme={appState.theme} />,
       },
     ];
